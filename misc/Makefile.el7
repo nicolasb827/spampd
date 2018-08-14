@@ -1,0 +1,5 @@
+all:
+	cp spampd.pl /usr/local/bin/spampd
+	cp spampd.config /etc/sysconfig/spampd
+	cp spampd.service /etc.systemd/system/spampd.service
+	systemctl daemon-reload
